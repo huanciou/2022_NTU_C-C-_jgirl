@@ -1,2 +1,1 @@
-https://jgirl.ddns.net
-紀錄曾經寫下的C/C++題目
+https://jgirl.ddns.net  紀錄寫下的C/C++題目
