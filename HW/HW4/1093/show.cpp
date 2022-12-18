@@ -1,0 +1,33 @@
+#include <iostream>
+//#include <string>
+#include "show.h"
+ 
+using namespace std;
+ 
+void show(int x){
+	cout << "1 int x="<<x << endl;
+
+	return;
+}
+ 
+void show(double x){
+    cout << "1 double x="<< x << endl;
+
+	return;
+}
+ 
+void show(int x, int y){
+    cout << "2 int x="<< x << ", y="<< y << endl;
+	
+	return;
+}
+ 
+void show(struct Person p){
+	cout << "Name: " << p.name <<  endl;	
+	cout << "Height: " << p.height << " cm" << endl;
+	cout << "Weight: " << p.weight << " kg" << endl;
+
+	return;
+}
+
+
